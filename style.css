@@ -1,0 +1,115 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #0d1117;
+  color: #ffffff;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+#game-container {
+  max-width: 600px;
+  margin: 40px auto;
+  background: #161b22;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #58a6ff;
+}
+
+#mode-buttons {
+  margin-bottom: 20px;
+}
+
+#mode-buttons button {
+  background-color: #21262d;
+  border: 2px solid #30363d;
+  color: #c9d1d9;
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 0.95rem;
+  border-radius: 8px;
+  transition: all 0.2s ease-in-out;
+}
+
+#mode-buttons button:hover {
+  background-color: #58a6ff;
+  color: #0d1117;
+  border-color: #58a6ff;
+}
+
+.selected-mode {
+  background-color: #58a6ff !important;
+  color: #0d1117 !important;
+  font-weight: bold;
+}
+
+#player-name {
+  font-size: 1.5rem;
+  margin: 25px 0;
+  color: #f0f6fc;
+}
+
+#choices {
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: none;
+  width: 60%;
+  max-width: 300px;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #238636;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 16px;
+  font-size: 1rem;
+  margin: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #2ea043;
+}
+
+#result {
+  font-weight: bold;
+  margin: 15px 0;
+  font-size: 1.1rem;
+  color: #f0f6fc;
+}
+
+#streak, #longest-streak {
+  font-size: 1rem;
+  margin: 5px 0;
+  color: #8b949e;
+}
+
+#give-up-btn {
+  background-color: #d73a49;
+}
+
+#give-up-btn:hover {
+  background-color: #e55361;
+}
+
+#restart-btn {
+  background-color: #6f42c1;
+}
+
+#restart-btn:hover {
+  background-color: #8756ce;
+}

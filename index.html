@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>What College Did He Go To?</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="game-container">
+    <h1>What College Did He Go To?</h1>
+
+    <div id="mode-buttons">
+      <button id="btn-nba">NBA Only</button>
+      <button id="btn-nfl">NFL Only</button>
+      <button id="btn-both" class="selected-mode">Both</button>
+    </div>
+
+    <h2 id="player-name">Loading...</h2>
+    <div id="choices"></div>
+    <div id="result"></div>
+
+    <div>
+      <p id="streak">Current Streak: 0</p>
+      <p id="longest-streak">Longest Streak: 0</p>
+    </div>
+
+    <button id="give-up-btn" style="display:none;">Give Up</button>
+    <button id="next-btn" style="display:none;">Next</button>
+    <button id="restart-btn" style="display:none;">Play Again</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
